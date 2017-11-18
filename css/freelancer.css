@@ -559,3 +559,8 @@ fieldset[disabled] .btn-success:hover {
 .btn:focus {
     outline: 0
 }
+
+.pagination{
+  width: 15%;
+  margin: auto;
+}
