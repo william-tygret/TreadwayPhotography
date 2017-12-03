@@ -112,7 +112,7 @@ section.success {
     outline: 0
 }
 #mainNav {
-    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Permanent Marker', cursive, Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     border: none;
@@ -284,6 +284,16 @@ position: relative;
         margin: 0 0 30px
     }
 }
+
+#full-portfolio-link {
+  padding-bottom: 3em;
+  padding-top: -10px;
+}
+
+#portfolio-top-text {
+  padding-top: 1em;
+}
+
 .portfolio-modal .modal-dialog {
     max-width: 100%;
     min-height: 100%;
@@ -562,5 +572,10 @@ fieldset[disabled] .btn-success:hover {
 
 .pagination{
   width: 15%;
+  margin: auto;
+}
+
+.portfolio-link {
+  font-size: 24px;
   margin: auto;
 }
